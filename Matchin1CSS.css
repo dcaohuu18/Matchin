@@ -1,0 +1,63 @@
+body {
+background-image: url("http://orig08.deviantart.net/10f5/f/2014/247/8/0/legends_wallpaper_by_alpgraphic13-d7xwlrj.png");
+background-repeat: repeat;
+background-size: cover;
+}
+
+h1 {
+font-family: audiowide;
+font-size: 72px;
+font-weight: bold;
+text-transform: uppercase;
+text-align: center;
+margin-top: 100px;
+margin-bottom:10px;
+color: rgb(0, 0, 190);
+}
+input[type=text], input[type=password] {
+height: 40px;
+width: 345px;
+font-size:20px;
+}
+button {
+height: 45px;
+width: 350px;
+font-size:20px;
+}
+.Log-in {
+width: 380px;
+height: 350px;
+margin: 0 auto;
+border: solid  rgba(255, 255, 255, 0.6);
+background-color: rgba(255, 255, 255, 0.6);
+}
+div.button, div.input {
+text-align: center;
+}
+.facebook {
+background-color: rgb(59,89,152);
+color: white;
+}
+.checkbox {
+padding-left: 12px;
+}
+.Forgotpass {
+padding-left: 15px;
+color: black;
+}
+p.input {
+text-align: center;
+margin: 5px;
+font-size: 20px;
+color: rgb(0,0,10);
+}
+.signup {
+background-color: rgb(233, 37, 9);
+color:white;
+font-weight:bold;
+}
+div.FB {
+margin-top: 9px;
+}
+
+

@@ -1,0 +1,688 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+body {
+background-image: url("https://wallpaperscraft.com/image/gianluigi_buffon_juventus_soccer_goalkeeper_99964_1920x1080.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+h1 {
+font-family: audiowide;
+font-size: 65px;
+font-weight: bold;
+text-transform: uppercase;
+margin-left: 18px;
+width: 1.3em;
+-webkit-transition: font-size 0.04s ease-in-out;
+transition: font-size 0.04s ease-in-out;
+}
+
+h1:hover {
+font-size: 70px;
+}
+
+ul {
+z-index: 1;
+background-color: rgba(255, 255, 255, 0.8);
+border-radius: 5px;
+width: 100%;
+list-style: none;
+}
+
+li {
+font-size: 25px;
+font-family: Audiowide;
+display: inline-block;
+width: 50px;
+vertical-align: middle;
+margin: 0 108px;
+border: solid transparent;
+}
+
+ul.Facts {
+display: none;
+width: 170px;
+position: absolute;
+left: 385px;
+border-radius: 0;
+border-bottom-right-radius: 3px;
+border-bottom-left-radius: 3px;
+}
+
+ul.Facts li {
+font-size: 20px;
+width: 170px;
+text-align: left;
+margin-left: 5px;
+}
+ 
+#Facts:hover+ul.Facts {
+display: block;
+}
+
+ul.Facts:hover {
+display: block;
+}
+
+li.forum {
+width: 255px;
+}
+
+a.head {
+color: rgb(0, 0, 190);
+-webkit-transition: color 0.04s ease-in-out;
+transition: color 0.04s ease-in-out;
+width: 100%;
+height: 100%;
+}
+
+a.head:hover {
+color: rgb(0, 0, 225);
+}
+
+a.navigation {
+color: rgb(230, 0, 0);
+font-weight: bold;
+-webkit-transition: color 0.1s, border-bottom 0.1s;
+transition: color 0.1s, border-bottom 0.1s;
+}
+
+a.navigation:hover {
+color: rgb(255, 0, 0);
+border-bottom: solid rgb(255, 0, 0);
+}
+
+input[type=text].search-bar {
+width: 130px;
+box-sizing: border-box;
+border: 2px solid #ccc;
+border-radius: 4px;
+font-size: 16px;
+background-color: white;
+background-image: url('http://findicons.com/files/icons/1389/g5_system/32/toolbar_find.png');
+background-position: left center;
+background-repeat: no-repeat;
+padding: 12px 20px 12px 40px;
+-webkit-transition: width 0.4s ease-in-out;
+transition: width 0.4s ease-in-out;
+position: absolute;
+top: 10px;
+right: 10px;
+}
+
+input[type=text].search-bar:focus {
+width: 20%;
+}
+
+div.match iframe {
+width: 820px;
+height: 472.5px;
+margin-top: 0;
+}
+
+img.live {
+position: absolute;
+top: 8px;
+left: 8px;
+height: 32px;
+width: 32px;
+index: 2;
+border: solid rgb(230, 30, 0);
+border-radius: 100%;
+}
+
+div.viewers {
+position: absolute;
+top: 16px;
+left: 48px;
+background-color: rgba(255, 255, 255, 0.6);
+border-radius: 5px;
+font-size: 18;
+color: black;
+font-family: Orbitron;
+padding-left: 34px;
+padding-right: 5px;
+background-image: url("https://s29.postimg.org/qdnp6h393/View.png");
+background-repeat: no-repeat;
+background-size: 34%;
+background-position: 4px -3px;
+}
+
+
+div.match {
+position: relative;
+}
+
+div.bigwrapper {
+position: relative;
+}
+
+div.wrapper {
+position: absolute;
+bottom: 64px;
+right: 100px;
+background-color: rgba(255, 255, 255, 0.6);
+border-radius: 10px;
+padding-left: 20px;
+padding-top: 5px;
+padding-right: 5px;
+height: 400px;
+width: 320px;
+}
+
+div.buttons {
+margin-left: 267px;
+padding-right: 0;
+}
+
+div.buttons button {
+background-color: transparent;
+border: 0;
+cursor: pointer;
+}
+
+div.chatbox {
+margin-right: 0;
+height: 330px;
+overflow: auto;
+}
+
+div.chatbox p {
+font-size: 15px;
+font-family: orbitron;
+font-weight: 450;
+margin-bottom: 5px;
+}
+
+div.chatbox p span {
+color: rgb(0, 0, 190);
+}
+
+input.usermsg {
+width: 270px;
+font-size: 15px;
+font-family: orbitron;
+font-weight: 450;
+height: 18px;
+margin-top: 10px;
+vertical-align: middle;
+}
+
+button.send {
+margin-top: 10px;
+vertical-align: middle;
+background-color: transparent;
+border: 0;
+}
+
+button.send img {
+height: 24px;
+width: 24px;
+}
+
+form {
+margin-right: 15px;
+}
+
+div.socialnetwork {
+position: absolute;
+bottom: 184px;
+right: 25px;
+}
+
+div.socialnetwork button{
+background-color: transparent;
+border: 0;
+cursor: pointer;
+}
+
+div.socialnetwork button:hover {
+opacity: 0.85;
+}
+
+div.socialnetwork button img {
+height: 50px;
+width: 50px;
+}
+
+
+
+
+div.review {
+  
+margin: 0 0 1.5em;
+  
+padding: 0;
+
+font-family: orbitron;
+}
+
+div.review div {
+background-color: rgba(255, 255, 255, 0.6);
+position: absolute;
+border-radius: 5px;
+bottom: -0.5px;
+right: 120px;
+font-size: 20px;
+background-image: url('https://s27.postimg.org/nwg7sgvwz/blue_star.png');
+background-position: 128px 42%;
+background-repeat: no-repeat;
+background-size: 20px 20px;
+width: 150px;
+}
+
+
+.starRating:not(old) {
+  
+display: inline-block;
+
+width: 7.5em;
+
+height: 1.5em;
+
+overflow: hidden;
+  
+vertical-align: bottom;
+
+}
+
+
+
+.starRating:not(old) > input {
+
+margin-right: -100%;
+  
+opacity: 0;
+
+}
+
+
+
+.starRating:not(old) > label {
+  
+display: block;
+  
+float: right;
+ 
+position: relative;
+
+background: url('https://s29.postimg.org/v0d2whc0n/review_star.png');
+  
+background-repeat: no-repeat;
+background-size : contain;
+
+}
+
+
+
+.starRating:not(old) > label:before {
+  
+content: '';
+  
+display: block;
+  
+width: 1.5em;
+  
+height: 1.5em;
+  
+background: url('https://s27.postimg.org/nwg7sgvwz/blue_star.png');
+background-repeat: no-repeat;
+  
+background-size: contain;
+  
+opacity: 0;
+  
+transition: opacity 0.2s linear;
+
+}
+
+
+
+.starRating:not(old) > label:hover:before,
+.starRating:not(old) > label:hover ~ label:before,
+.starRating:not(:hover) > :checked ~ label:before {
+  
+opacity : 1;
+
+}
+
+div.review span {
+background-color:  rgba(255, 255, 255, 0.6);
+border-radius: 5.5px;
+display: none;
+border: solid;
+padding: 4px;
+position: absolute;
+bottom: -7px;
+right: -14.5px;
+}
+
+div.review {
+position: absolute;
+bottom: 5px;
+right: 175px;
+}
+
+div.review div:hover + span.starRating {
+display: inline-block;
+}
+
+.starRating:hover {
+display: inline-block;
+}
+
+div.comment {
+position: relative;
+height: 200px;
+}
+
+div.comment iframe {
+position: absolute;
+top: -17px;
+width: 375.8333px;
+height: 216.5625px;
+}
+
+iframe.two {
+right: 597px;
+}
+
+div.stat {
+background-color:  rgba(255, 255, 255, 0.6);
+height: 212px;
+width: 597px;
+position: absolute;
+right: 0;
+top: -17px;
+}
+
+div.stat table {
+height: 100%;
+width: 100%;
+position: relative;
+}
+
+td.nav {
+border: solid;
+font-size: 18px;
+font-family: orbitron;
+text-align: center;
+border-bottom: 0;
+cursor: default;
+}
+
+td.fact {
+border-bottom: solid;
+}
+
+td.blank {
+width: 88.7%;
+}
+
+td.stat-a {
+background-image: url('https://s29.postimg.org/cgkgp122v/Stat.png');
+background-position: 50% 50%;
+background-repeat: no-repeat;
+background-size: 50%;
+}
+
+td.stat-b {
+display: none;
+position: absolute;
+right: 0;
+overflow: auto;
+font-size: 16.5px;
+font-family: orbitron;
+height: 100%;
+width: 88.7%;
+}
+
+td.stat-b table td {
+border-width: 2px;
+text-align: center;
+}
+
+tr.head {
+height: 60px;
+}
+
+tr.head td {
+font-size: 28px;
+}
+
+td.team1, td.team2 {
+width: 30%;
+}
+
+td.team1 {
+background-image: url('http://i1.eurosport.com/_iss_/sport/football/club/logo/medium/4080.png');
+background-position: 50% 50%;
+background-repeat: no-repeat;
+background-size: 30%;
+}
+
+td.team2 {
+background-image: url('http://i.eurosport.com/_iss_/sport/football/club/logo/medium/4007.png');
+background-position: 50% 50%;
+background-repeat: no-repeat;
+background-size: 30%;
+}
+
+td.stat-a:hover ~ td.stat-b {
+display: inline-block;
+}
+
+td.stat-b:hover {
+display: inline-block;
+}
+
+td.sum-b {
+display: none;
+position: absolute;
+right: 0;
+top: 0;
+overflow: auto;
+font-size: 16.5px;
+font-family: orbitron;
+height: 100%;
+width: 88.7%;
+}
+
+td.sum-a {
+background-image: url('https://s27.postimg.org/td8atntmr/Sum.png');
+background-position: 50% 50%;
+background-repeat: no-repeat;
+background-size: 50%;
+}
+
+td.sum-b table td {
+text-align: center;
+}
+
+td.out {
+background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Decrease2.svg/11px-Decrease2.svg.png');
+background-position: 10px 50%;
+background-repeat: no-repeat;
+}
+
+td.in {
+background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/11px-Increase2.svg.png');
+background-position: 10px 50%;
+background-repeat: no-repeat;
+}
+
+td.half {
+border-bottom: solid;
+border-top: solid;
+border-width: 2px;
+}
+
+td.yellowcard, td.substitution, td.goal {
+width: 20%;
+}
+
+td.yellowcard {
+background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Yellow_card.svg/200px-Yellow_card.svg.png');
+background-position: 50% 50%;
+background-repeat: no-repeat;
+background-size: 15%;
+}
+
+td.goal {
+background-image: url('https://s29.postimg.org/qcovrbshj/Goal.png');
+background-position: 55% 55%;
+background-repeat: no-repeat;
+background-size: 25%;
+}
+
+td.substitution {
+background-image: url('https://s29.postimg.org/9nawdtn47/Substitute.png');
+background-position: 50% 50%;
+background-repeat: no-repeat;
+background-size: 25%;
+}
+
+td.team-1 {
+background-image: url('http://i1.eurosport.com/_iss_/sport/football/club/logo/medium/4080.png');
+background-position: 50% 50%;
+background-repeat: no-repeat;
+background-size: 20%;
+height: 48px;
+}
+
+td.team-2 {
+background-image: url('http://i.eurosport.com/_iss_/sport/football/club/logo/medium/4007.png');
+background-position: 50% 50%;
+background-repeat: no-repeat;
+background-size: 20%;
+height: 48px;
+}
+
+td.sum-a:hover + td.sum-b {
+display: inline-block;
+}
+
+td.sum-b:hover {
+display: inline-block;
+}
+
+td.team {
+height: 25%;
+background-image: url('https://s27.postimg.org/vm8rej9n7/Team.png');
+background-position: 50% 50%;
+background-repeat: no-repeat;
+background-size: 50%;
+}
+
+td.fact-a {
+background-image: url('https://s27.postimg.org/uk3q479ab/info.png');
+background-position: 50% 50%;
+background-repeat: no-repeat;
+background-size: 50%;
+border-bottom: solid;
+}
+
+td.fact-b {
+display: none;
+position: absolute;
+right: 0;
+top: 0;
+overflow: auto;
+font-size: 16.5px;
+font-family: orbitron;
+height: 100%;
+width: 88.7%;
+}
+
+td.fact-b p {
+font-family: Orbitron;
+font-size: 16.5px;
+height: 212px;
+display: table-cell;
+vertical-align: middle;
+text-align: center;
+overflow: auto;
+}
+
+button.prev, button.next {
+position: absolute;
+background-color: white;
+border-radius: 5px;
+color: blue;
+font-size: 21px;
+top: 185px;
+border: 0;
+width: 50px;
+text-align: center;
+}
+
+button.next {
+right: 5px;
+}
+
+button.prev {
+left: 5px;
+}
+
+td.fact-a:hover + td.fact-b {
+display: inline-block;
+}
+
+td.fact-b:hover {
+display: inline-block;
+}
+
+#team {
+background-color: transparent;
+font-size: 18px;
+border: 0;
+font-family: orbitron;
+cursor: pointer;
+height: 100%;
+width: 100%;
+}
+
+.modal {
+display: none; 
+position: fixed; 
+z-index: 1; 
+padding-top: 40px; 
+left: 0;
+top: 0;
+width: 100%; 
+height: 100%; 
+overflow: auto; 
+background-color: rgb(0,0,0); 
+background-color: rgba(0,0,0,0.6); 
+}
+
+
+.modal-content {
+background-color: rgba(255, 255, 255, 0.6);
+margin: auto; 
+border: 1px solid #888;
+border-radius: 10px;
+width: 37%;
+height: 593px;
+}
+
+.modal-content p {
+width: 392px;
+margin: auto;
+}
+
+.close {
+color: #aaaaaa;
+float: right;
+font-size: 28px;
+font-weight: bold;
+}
+
+.close:hover, .close:focus {
+color: #000;
+text-decoration: none;
+cursor: pointer;
+}
